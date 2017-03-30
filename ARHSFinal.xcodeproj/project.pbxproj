@@ -15,6 +15,7 @@
 		F08A51F41E8B02F900DE5516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08A51F21E8B02F900DE5516 /* LaunchScreen.storyboard */; };
 		F08A51FF1E8B02F900DE5516 /* ARHSFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A51FE1E8B02F900DE5516 /* ARHSFinalTests.swift */; };
 		F08A520A1E8B02F900DE5516 /* ARHSFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A52091E8B02F900DE5516 /* ARHSFinalUITests.swift */; };
+		F08A52181E8B097B00DE5516 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A52171E8B097B00DE5516 /* Characters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F08A52051E8B02F900DE5516 /* ARHSFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARHSFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08A52091E8B02F900DE5516 /* ARHSFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHSFinalUITests.swift; sourceTree = "<group>"; };
 		F08A520B1E8B02F900DE5516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08A52171E8B097B00DE5516 /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F08A51E71E8B02F900DE5516 /* AppDelegate.swift */,
 				F08A51E91E8B02F900DE5516 /* Home.swift */,
 				F08A51EB1E8B02F900DE5516 /* Moves.swift */,
+				F08A52171E8B097B00DE5516 /* Characters.swift */,
 				F08A51ED1E8B02F900DE5516 /* Main.storyboard */,
 				F08A51F01E8B02F900DE5516 /* Assets.xcassets */,
 				F08A51F21E8B02F900DE5516 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				F08A51EC1E8B02F900DE5516 /* Moves.swift in Sources */,
 				F08A51E81E8B02F900DE5516 /* AppDelegate.swift in Sources */,
 				F08A51EA1E8B02F900DE5516 /* Home.swift in Sources */,
+				F08A52181E8B097B00DE5516 /* Characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
