@@ -10,6 +10,11 @@ import UIKit
 
 class Characters: UIViewController {
     
+    @IBAction func FoxCL(_ sender: Any) {
+        [performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)]
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
