@@ -11,10 +11,19 @@ import UIKit
 class Characters: UIViewController {
     
     @IBAction func FoxCL(_ sender: Any) {
-        [performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)]
+        [performSegue(withIdentifier: "Charactertomove", sender: nil)]
+        
+    }
+    @IBAction func FalcoCl(_ sender: Any) {
+        [performSegue(withIdentifier: "Charactertomove", sender: nil)]
     }
     
-    
+    @IBAction func MarthCl(_ sender: Any) {
+        [performSegue(withIdentifier: "Charactertomove", sender: nil)]
+    }
+    @IBAction func ShiekCl(_ sender: Any) {
+        [performSegue(withIdentifier: "Charactertomove", sender: nil)]
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
