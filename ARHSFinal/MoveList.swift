@@ -10,6 +10,18 @@ import UIKit
 
 class MoveList: UIViewController {
     
+    @IBAction func Fawks(_ sender: Any) {
+        [performSegue(withIdentifier: "MoveList>Info", sender: nil)]
+    }
+    @IBAction func Marf(_ sender: Any) {
+        [performSegue(withIdentifier: "MoveList>Info", sender: nil)]
+    }
+    @IBAction func Shek(_ sender: Any) {
+        [performSegue(withIdentifier: "MoveList>Info", sender: nil)]
+    }
+    @IBAction func Flko(_ sender: Any) {
+        [performSegue(withIdentifier: "MoveList>Info", sender: nil)]
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -246,6 +246,9 @@
                                 <state key="normal" title="Fawks" backgroundImage="FoxV">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Fawks:" destination="9XM-Rb-4CM" eventType="touchUpInside" id="zNS-WW-K4o"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTB-ZI-f1B">
                                 <rect key="frame" x="532" y="286" width="200" height="266"/>
@@ -254,6 +257,9 @@
                                 <state key="normal" title="Marf" backgroundImage="MarthV">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Marf:" destination="9XM-Rb-4CM" eventType="touchUpInside" id="4UI-9I-IdW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Pp-8s-5Jr">
                                 <rect key="frame" x="804" y="286" width="200" height="266"/>
@@ -262,6 +268,9 @@
                                 <state key="normal" title="Shek" backgroundImage="SheikV">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="Shek:" destination="9XM-Rb-4CM" eventType="touchUpInside" id="rcJ-Iq-Xfn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrz-Rv-2SU">
                                 <rect key="frame" x="269" y="285" width="200" height="266"/>
@@ -271,12 +280,15 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Flko:" destination="9XM-Rb-4CM" eventType="touchUpInside" id="r3V-PC-GvO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="7oo-4Y-ush" kind="show" id="kGb-sM-lzB"/>
+                        <segue destination="7oo-4Y-ush" kind="show" identifier="MoveList&gt;Info" id="kGb-sM-lzB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NlY-k9-HeF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -409,87 +421,136 @@
                                 <rect key="frame" x="130" y="167" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Jab"/>
+                                <connections>
+                                    <action selector="Jab:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="ddX-x8-AuV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QG5-gj-WGk">
                                 <rect key="frame" x="130" y="301" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Uptilt"/>
+                                <connections>
+                                    <action selector="Uptilt:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="IPr-pO-5mJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtO-Hl-eZA">
                                 <rect key="frame" x="130" y="456" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="FTillt"/>
+                                <connections>
+                                    <action selector="Ftilt:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="mRA-vK-L6F"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KcN-u0-FGf">
                                 <rect key="frame" x="130" y="585" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="DTilt"/>
+                                <connections>
+                                    <action selector="Dtilt:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="K5r-IB-EAC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLF-fR-qdW">
                                 <rect key="frame" x="332" y="167" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Nair"/>
+                                <connections>
+                                    <action selector="Nair:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="Uep-DU-lq6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yra-eb-oVo">
                                 <rect key="frame" x="332" y="301" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Uair"/>
+                                <connections>
+                                    <action selector="Uair:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="i92-Mr-nWf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEg-3Q-Mav">
                                 <rect key="frame" x="332" y="456" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fair"/>
+                                <connections>
+                                    <action selector="Fair:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="6qc-r3-i3j"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhO-wp-itM">
                                 <rect key="frame" x="332" y="585" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Dair"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdC-fE-FQP">
-                                <rect key="frame" x="795" y="167" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Neutral B"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIA-ec-cCO">
-                                <rect key="frame" x="795" y="456" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Forward B"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpT-I2-0YH">
-                                <rect key="frame" x="795" y="301" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Up B"/>
+                                <connections>
+                                    <action selector="Dair:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="lLJ-J8-ANT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sZ-0v-9q3">
                                 <rect key="frame" x="561" y="456" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fsmash"/>
+                                <connections>
+                                    <action selector="Fsmash:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="KQg-qW-UEc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZa-we-pQq">
                                 <rect key="frame" x="561" y="315" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Up Smash"/>
+                                <connections>
+                                    <action selector="UpSmash:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="q7y-cn-biC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDd-Du-AN1">
                                 <rect key="frame" x="561" y="585" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="DownSmash"/>
+                                <connections>
+                                    <action selector="DownSmash:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="2VJ-To-v6Z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUC-8m-e4j">
                                 <rect key="frame" x="561" y="167" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Dash Attack"/>
+                                <connections>
+                                    <action selector="DashAttack:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="A3B-Yt-Rr9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdC-fE-FQP">
+                                <rect key="frame" x="795" y="167" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Neutral B"/>
+                                <connections>
+                                    <action selector="NeutralB:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="ZN5-2s-aIf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIA-ec-cCO">
+                                <rect key="frame" x="795" y="456" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Forward B"/>
+                                <connections>
+                                    <action selector="ForwardB:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="1Il-2R-SF7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpT-I2-0YH">
+                                <rect key="frame" x="795" y="301" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Up B"/>
+                                <connections>
+                                    <action selector="UpB:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="0gZ-pv-2sT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ig-hS-U0K">
                                 <rect key="frame" x="795" y="585" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Down B"/>
+                                <connections>
+                                    <action selector="DownB:" destination="0WU-sQ-3iK" eventType="touchUpInside" id="zRi-sU-yWh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="7oo-4Y-ush" kind="show" id="yma-Aa-87B"/>
+                        <outlet property="Uair" destination="Yra-eb-oVo" id="88u-vW-KBL"/>
+                        <segue destination="7oo-4Y-ush" kind="show" identifier="CharacterPage&gt;MoveInfo" id="yma-Aa-87B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xiU-AD-o5n" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -528,6 +589,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="wdb-hY-3Ff"/>
         <segue reference="XHK-pT-qbV"/>
-        <segue reference="yma-Aa-87B"/>
+        <segue reference="kGb-sM-lzB"/>
     </inferredMetricsTieBreakers>
 </document>
