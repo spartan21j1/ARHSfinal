@@ -10,19 +10,19 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ARHSFinal/Characters.swift"
-            timestampString = "512944201.445043"
+            timestampString = "513634873.562197"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "FoxCL(_:)"
-            landmarkType = "7">
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ARHSFinal/Characters.swift"
@@ -32,6 +32,163 @@
             startingLineNumber = "13"
             endingLineNumber = "13"
             landmarkName = "FoxCL(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARHSFinal/CharacterPage.swift"
+            timestampString = "513288792.933943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARHSFinal/CharacterPage.swift"
+            timestampString = "513288792.933943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "Ftilt(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARHSFinal/CharacterPage.swift"
+            timestampString = "513288792.933943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "Ftilt(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARHSFinal/MoveList.swift"
+            timestampString = "513635278.754823"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MoveList"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARHSFinal.MoveList.__deallocating_deinit"
+                  moduleName = "ARHSFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jandrade2018/Documents/ProjectsAndrade/ARHSFinal/ARHSFinal/MoveList.swift"
+                  timestampString = "513635278.761117"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARHSFinal.MoveList.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ARHSFinal.MoveList"
+                  moduleName = "ARHSFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jandrade2018/Documents/ProjectsAndrade/ARHSFinal/ARHSFinal/MoveList.swift"
+                  timestampString = "513635278.762432"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARHSFinal.MoveList.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ARHSFinal.MoveList"
+                  moduleName = "ARHSFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jandrade2018/Documents/ProjectsAndrade/ARHSFinal/ARHSFinal/MoveList.swift"
+                  timestampString = "513635278.763783"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARHSFinal.MoveList.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ARHSFinal.MoveList&gt;"
+                  moduleName = "ARHSFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jandrade2018/Documents/ProjectsAndrade/ARHSFinal/ARHSFinal/MoveList.swift"
+                  timestampString = "513635278.765234"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARHSFinal.MoveList.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ARHSFinal.MoveList&gt;"
+                  moduleName = "ARHSFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jandrade2018/Documents/ProjectsAndrade/ARHSFinal/ARHSFinal/MoveList.swift"
+                  timestampString = "513635278.767502"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARHSFinal/Moves.swift"
+            timestampString = "513636558.841325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "Jab(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

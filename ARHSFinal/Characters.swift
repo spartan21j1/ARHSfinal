@@ -12,17 +12,28 @@ class Characters: UIViewController {
     
     @IBAction func FoxCL(_ sender: Any) {
         [performSegue(withIdentifier: "Charactertomove", sender: nil)]
-        
+        func prepare(for: UIStoryboardSegue, sender: Any?){
+            
+        }
     }
     @IBAction func FalcoCl(_ sender: Any) {
         [performSegue(withIdentifier: "Charactertomove", sender: nil)]
+        func prepare(for: UIStoryboardSegue, sender: Any?){
+            
+        }
     }
     
     @IBAction func MarthCl(_ sender: Any) {
         [performSegue(withIdentifier: "Charactertomove", sender: nil)]
+        func prepare(for: UIStoryboardSegue, sender: Any?){
+            
+        }
     }
     @IBAction func ShiekCl(_ sender: Any) {
         [performSegue(withIdentifier: "Charactertomove", sender: nil)]
+        func prepare(for: UIStoryboardSegue, sender: Any?){
+            
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
